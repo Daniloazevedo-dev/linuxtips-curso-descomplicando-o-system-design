@@ -11,3 +11,19 @@
 | Teorema CAP, ACID, BASE e PACELC          | [Slides](https://docs.google.com/presentation/d/1vN_Ls9l0OT0babRJHrqO109O1MEXX4voOI1j9qbL5mA/edit?usp=drive_link)                         | [Artigo](https://fidelissauro.dev/teorema-cap/)                                             | -      |
 | Databases, Indexação e Modelos de Dados   | [Slides](https://docs.google.com/presentation/d/1m7KH8I6O-XBlxcSahNXwN9karKU6vN-jZXl4D8jZcgE/edit?usp=drive_link)                         | [Artigo](https://fidelissauro.dev/databases/)                                               | -      |
 | Monolitos, Microserviços e Domínios       | [Slides](https://docs.google.com/presentation/d/1jXQ5mPBDYjWg7imHVf50eDz0YYWcSi_d9MHtRUqfZMQ/edit?usp=drive_link)                         | [Artigo](https://fidelissauro.dev/monolitos-microservicos/)                                 | -      |
+
+
+# Book de Cases e Exercícios Livres 
+
+
+| Case | Nível | Link |
+|------|-------|------|
+| DDD - Banco da Federação Galática | Basico / Intermediário | [Link](/cases/BASICO_DDD_BANCO_FEDERACAO_GALATICA.md) |
+| DDD - FoodTech | Basico / Intermediário | [Link](/cases/BASICO_DDD_FOODTECH.md) |
+| Case e Catálogo de Marketplace | Basico | [Link](/cases/BASICO_CATALOGO.md) | 
+| Checkout de Livraria | Basico | [Link](/cases/BASICO_CHECKOUT_LIVRARIA.md) |
+| Encurtador de Links | Basico | [Link](/cases/BASICO_ENCURTADOR_DE_LINKS.md) |
+| FoodTech | Intermediário | [Link](/cases/INTERMEDIARIO_DELIVERY.md) |
+| Orquestrador de Notificações Omnichannel para E-commerce | Intermediário | [Link](/cases/INTERMEDIARIO_OMNI_CHANNEL.md) |
+| Case de Consistência com SAGA Pattern | Intermediário | [Link](/cases/INTERMEDIARIO_SAGA.md) |
+| Case de Ledger REST | Avançado | [Link](/cases/AVANCADO_LEDGER_REST.md) |

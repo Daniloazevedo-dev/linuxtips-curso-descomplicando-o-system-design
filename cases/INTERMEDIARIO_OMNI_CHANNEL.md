@@ -1,4 +1,4 @@
-# Orquestrador de Notificações Omnicanal para E-commerce
+# Orquestrador de Notificações Omnichannel para E-commerce
 
 **Nível:** intermediário  
 **Tema(s):** mensageria, idempotência, retries com backoff, rate limiting por canal, outbox pattern  

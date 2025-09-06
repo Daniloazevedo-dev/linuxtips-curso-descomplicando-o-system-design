@@ -83,6 +83,6 @@ flowchart LR
 ## Extensões / Perguntas de Reflexão (Opcional)
 - Onde colocar o **ponto de deduplicação** da idempotency key: na borda (API) ou no serviço de pedidos? Como lidar com concorrência?
 - Qual estratégia de **particionamento** dos tópicos (por restaurante, por região, por orderId) reduz hotspots durante promoções?
-- Como desenhar a **degradação graciosa** se o read model atrasar (ex.: colocar “quantidade limitada”, ocultar contagem exata)?
+- Como desenhar a **graceful degradation** se o read model atrasar (ex.: colocar “rate limiters", ocultar contagem exata)?
 - Que política de **retry** e **timeouts** minimiza storms durante pico? Onde usar **circuit breakers**?
 - Se a promoção abrange múltiplas **regiões**, como manter **SLOs** e **consistência** do estoque com latência inter-regiões?
