@@ -18,7 +18,8 @@
 
 | Case | Nível | Link |
 |------|-------|------|
-| DDD - Banco da Federação Galática | Basico / Intermediário | [Link](/cases/BASICO_DDD_BANCO_FEDERACAO_GALATICA.md) |
+| DDD - Core Banking | Basico | [Link](/cases/BASICO_DDD_CORE_BANKING.md) |
+| DDD - Banco da Federação Galática | Avançado | [Link](/cases/AVANCADO_DDD_BANCO_FEDERACAO_GALATICA.md) |
 | DDD - FoodTech | Basico / Intermediário | [Link](/cases/BASICO_DDD_FOODTECH.md) |
 | Case e Catálogo de Marketplace | Basico | [Link](/cases/BASICO_CATALOGO.md) | 
 | Checkout de Livraria | Basico | [Link](/cases/BASICO_CHECKOUT_LIVRARIA.md) |
