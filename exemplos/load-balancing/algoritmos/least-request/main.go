@@ -53,8 +53,8 @@ func main() {
 	// Inicia o mecanismo Least Request
 	leastRequest := NewLeastRequest(hosts)
 
-	// Simula 30 Requests
-	for i := 0; i < 30; i++ {
+	// Simula 100 Requests
+	for i := 0; i < 300; i++ {
 		host := leastRequest.getHost()
 		fmt.Printf("Requisição %d direcionada para: %s\n", i+1, host)
 	}

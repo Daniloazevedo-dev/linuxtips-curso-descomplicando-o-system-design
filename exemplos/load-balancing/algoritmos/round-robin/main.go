@@ -37,7 +37,7 @@ func (rb *RoundRobin) getHost() string {
 
 func main() {
 	// Variável de tempo em milisegundos pra escolha de hosts
-	var quantum int = 300
+	var quantum int = 50
 
 	// Lista de hosts disponíveis
 	hosts := []string{
@@ -53,8 +53,8 @@ func main() {
 		ultimoAcesso: time.Now(),
 	}
 
-	// Simula 20 Requests
-	for i := 0; i < 20; i++ {
+	// Simula 100 Requests
+	for i := 0; i < 100; i++ {
 		host := roundRobin.getHost()
 		fmt.Printf("Requisição %d direcionada para: %s\n", i+1, host)
 		time.Sleep(200 * time.Millisecond)

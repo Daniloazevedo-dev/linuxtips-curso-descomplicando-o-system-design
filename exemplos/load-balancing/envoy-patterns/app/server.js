@@ -42,9 +42,10 @@ app.get('/api/data', (req, res) => {
         hostname: os.hostname(),
         timestamp: new Date().toISOString()
     };
+
     setTimeout(() => {
         res.json(data);
-    }, 5000);
+    }, 200);
 
 });
 

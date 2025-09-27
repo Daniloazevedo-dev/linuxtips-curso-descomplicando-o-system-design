@@ -2,7 +2,7 @@ admin:
   address:
     socket_address:
       address: 0.0.0.0
-      port_value: 9902
+      port_value: 9901
 
 static_resources:
   listeners:
@@ -28,6 +28,35 @@ static_resources:
                   %DURATION% %RESP(X-ENVOY-UPSTREAM-SERVICE-TIME)% "%REQ(X-FORWARDED-FOR)%"
                   "%REQ(USER-AGENT)%" "%REQ(X-REQUEST-ID)%" "%REQ(:AUTHORITY)%" "%UPSTREAM_HOST%"
           http_filters:
+
+          - name: envoy.filters.http.local_ratelimit
+            typed_config:
+              "@type": type.googleapis.com/udpa.type.v1.TypedStruct
+              type_url: type.googleapis.com/envoy.extensions.filters.http.local_ratelimit.v3.LocalRateLimit
+              value:
+                stat_prefix: local_rate_limiter
+                token_bucket:
+                  max_tokens: 10        # Máximo 10 requisições
+                  tokens_per_fill: 10   # Repor 10 tokens
+                  fill_interval: 60s    # A cada 60 segundos
+                filter_enabled:
+                  runtime_key: local_rate_limit_enabled
+                  default_value:
+                    numerator: 100
+                    denominator: HUNDRED
+                filter_enforced:
+                  runtime_key: local_rate_limit_enforced
+                  default_value:
+                    numerator: 100
+                    denominator: HUNDRED
+                response_headers_to_add:
+                - append: false
+                  header:
+                    key: x-local-rate-limit
+                    value: 'true'
+
+
+
           - name: envoy.filters.http.router
             typed_config:
               "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router
@@ -41,7 +70,7 @@ static_resources:
                   prefix: "/"
                 route:
                   cluster: backend_service
-                  timeout: 30s
+                  timeout: 1s
                 response_headers_to_add:
                 - header:
                     key: "X-Proxy-Server"
