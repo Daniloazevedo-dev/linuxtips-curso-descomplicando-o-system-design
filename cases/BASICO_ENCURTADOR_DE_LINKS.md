@@ -50,3 +50,11 @@ flowchart LR
   W --> M
 ```
 
+## Desafio
+
+Escalar o sistema para: 
+
+* 100 TPS 
+* 1.000 TPS 
+* 10.000 TPS
+* 100.000 TPS
