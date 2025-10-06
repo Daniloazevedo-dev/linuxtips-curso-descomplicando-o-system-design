@@ -13,6 +13,9 @@
 | Estratégias de Cache                      | [Slides](https://docs.google.com/presentation/d/1tf6W9P-yyh0odoo2RheTotPwEuDnYQhccbCAacuFwFw/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/caching/)                                                 | -      |
 | Monolitos, Microserviços e Domínios       | [Slides](https://docs.google.com/presentation/d/1jXQ5mPBDYjWg7imHVf50eDz0YYWcSi_d9MHtRUqfZMQ/edit?usp=drive_link)                         | [Artigo](https://fidelissauro.dev/monolitos-microservicos/)                                 | -      |
 | Load Balancers e Proxies Reversos         | [Slides](https://docs.google.com/presentation/d/189JsQu78oXyYZwXOsTwd3k2BC47XbWtF7MM6Max-Eec/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/load-balancing/)                                          | -      |
+| API Gateways                              | [Slides](https://docs.google.com/presentation/d/1TVZ93iT1_rnv8VRomfV8ALZDpnspzMOCprJi2h4UYbs/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/api-gateways)                                             | -      |
+| Backend for Frontends                     | [Slides](https://docs.google.com/presentation/d/1AKgEtalLc_xAITwuzoI0cx_6Aj0ygpzTxGbrZ8opQ8c/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/bffs)                                                     | -      |
+| Service Mesh                              | [Slides](https://docs.google.com/presentation/d/1SgD9Rcling58FLBeHWg-klDOGoEWh4aecB38TbfRZjM/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/service-mesh)                                             | -      |
 
 # Book de Cases e Exercícios Livres 
 
