@@ -16,6 +16,8 @@
 | API Gateways                              | [Slides](https://docs.google.com/presentation/d/1TVZ93iT1_rnv8VRomfV8ALZDpnspzMOCprJi2h4UYbs/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/api-gateways)                                             | -      |
 | Backend for Frontends                     | [Slides](https://docs.google.com/presentation/d/1AKgEtalLc_xAITwuzoI0cx_6Aj0ygpzTxGbrZ8opQ8c/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/bffs)                                                     | -      |
 | Service Mesh                              | [Slides](https://docs.google.com/presentation/d/1SgD9Rcling58FLBeHWg-klDOGoEWh4aecB38TbfRZjM/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/service-mesh)                                             | -      |
+| Conceitos de Concorrência e Paralelismo   | [Slides](https://docs.google.com/presentation/d/1n_jMcS5JRbd5kGaQnINlWpes3yGK5RyNg51A7zpxVtI/edit?usp=sharing)                            | [Artigo](https://fidelissauro.dev/concorrencia-paralelismo/)                                | -      |
+
 
 # Book de Cases e Exercícios Livres 
 
