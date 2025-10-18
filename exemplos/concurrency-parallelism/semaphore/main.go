@@ -35,9 +35,9 @@ func main() {
 		go func(i int) {
 			alimento := i + 1
 
-			preparar(alimento, 2) // Inicia o preparo da comida
-			<-semaforo            // Libera um espaço no semaforo quando terminar o preparo
-			wg.Done()             // Termina uma ativilidade no contador do WaitGroup
+			grelhar(alimento, 2) // Inicia o preparo da comida
+			<-semaforo           // Libera um espaço no semaforo quando terminar o preparo
+			wg.Done()            // Termina uma ativilidade no contador do WaitGroup
 
 		}(i)
 	}
